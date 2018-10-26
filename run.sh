@@ -1,0 +1,1 @@
+ENV=$1 NODE_PATH=source/js concurrently \"webpack\" \"gulp\"

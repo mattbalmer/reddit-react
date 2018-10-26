@@ -1,0 +1,13 @@
+# System
+.DS_STORE
+.git/
+
+# IDE
+.idea/
+*.xml
+
+# Deps
+node_modules/
+
+# Project
+dist/

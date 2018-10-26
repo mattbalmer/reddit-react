@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "lib": ["es2017", "dom"],
+        "skipLibCheck": true,
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "target": "es6",
+        "baseUrl": "./source/js",
+        "module": "commonjs",
+        "jsx": "react",
+        "paths": {
+            "@env/*": ["@env/*"],
+            "@lib/*": ["@lib/*"],
+            "@client/*": ["@client/*"]
+        }
+    },
+    "include": [
+        "./source/**/*",
+        "./lib/**/*"
+    ]
+}
